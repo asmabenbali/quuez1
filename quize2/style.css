@@ -1,0 +1,89 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden; /* Ajoutez cette ligne pour supprimer la barre de défilement */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    font-weight: 600;
+    font-family: monospace;
+    color:black;
+    background: linear-gradient(skyblue, rgb(128, 125, 125), skyblue)
+  }
+  
+
+body h2 {
+  color:rgb(3, 42, 58);
+  margin-top: 40px;
+  font-weight: 700;
+}
+
+main {
+  padding: 19px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 7px;
+}
+
+/*nombrepage HOWA NOMBRE DES PAGES 1/4*/
+.nombrepage {
+  text-align: end;
+  font-weight: 200;
+}
+
+.resultat {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-weight: 800;
+}
+
+button {
+  width: 100%;
+  
+  padding: 4px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f4f7f8;
+  color: black;
+}
+button:hover{
+    background:linear-gradient(skyblue,white);
+}
+
+.finish {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.finish button {
+  text-align: center;
+}
+.finish button:hover{
+    background-color: rgb(80, 110, 121);
+}
+.question{
+    font-weight: 600;
+    font-family: monospace;
+}
